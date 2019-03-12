@@ -12,10 +12,10 @@ server.on('request', function (request, response) {
             response.end();
         });
     } else {
-            response.statusCode = 404;
-            response.write('<h1>404: Zła ścieżka!</h1>');
-            response.write('<img src="https://images.pexels.com/photos/414181/pexels-photo-414181.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="spring-photo">');
-            response.end();
+        response.statusCode = 404;
+        response.write('<h1>404: Zła ścieżka!</h1>');
+        response.write('<img src="https://images.pexels.com/photos/414181/pexels-photo-414181.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="spring-photo">');
+        response.end();
     }
 });
 
